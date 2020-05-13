@@ -1,0 +1,34 @@
+ .form-container {
+  color: $text;
+  background-color: $light;
+  padding: 25px;
+  border-radius: 5px;
+  .form-control {
+    border-color: $dark;
+    background: $dark;
+    color: $text;
+    border-radius: 1px;
+  }
+  .form-group{
+    margin-top: 60px !important;
+  }
+
+  .image-upload {
+    input {
+      display: none;
+    }
+    button {
+      border: 1px dashed #ccc;
+    }
+    .image-preview{
+      width: 200px;
+    }
+  }
+
+  .editor-style {
+    border: 1px solid #ccc;
+  }
+  .rdw-editor-main{
+    min-height:200px;
+  }
+}

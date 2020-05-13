@@ -1,0 +1,3 @@
+sudo service mysql stop | sudo /opt/lampp/lampp start
+
+sudo /opt/lampp/lampp status

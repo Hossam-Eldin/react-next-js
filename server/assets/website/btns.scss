@@ -1,0 +1,237 @@
+.vote-btn {
+
+    background-color: $orange;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    overflow: hidden;
+
+    button {
+        background: transparent;
+        border: 0px;
+        color: $light;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        height: 50%;
+        line-height: 1;
+        display: block;
+        transition: all 0.5s ease;
+
+        &:hover {
+            background-color: darken($orange, 10%)
+        }
+    }
+
+    .up-btn {}
+}
+
+.tag-btn {
+    background: $light;
+    color: $dark;
+    margin: 2px;
+    font-weight: bold;
+    float: left;
+
+}
+
+
+//##################### social btns #######################
+
+.social-share-btn {
+    li {
+        padding: 5px;
+
+        .share-drop {
+            color: #7d7d7d;
+        }
+    }
+
+}
+
+.in-icon {
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0px auto;
+}
+
+.c-reddit {
+    color: #ff4500;
+}
+
+.c-fb {
+    color: #325a97;
+}
+
+.c-twitter {
+    color: #00aced;
+}
+
+.c-whatsapp {
+    color: #25D366;
+}
+
+.c-ok {
+    color: #d49c32;
+
+}
+
+/*################################# Share btn V    #########################################*/
+
+.social-share-btn-v {
+    list-style: none;
+    position: relative;
+    margin: 0px;
+    display: inline-block;
+    padding: 0px;
+
+    li {
+        font-size: 20px;
+
+        .share-drop {
+            color: #ccc;
+        }
+    }
+
+}
+
+
+.c-reddit-v {
+    font-size: 22px;
+
+    &:hover {
+
+        color: #ff4500;
+    }
+}
+
+.c-fb-v {
+    font-size: 22px;
+
+    &:hover {
+
+        color: #325a97;
+    }
+}
+
+.c-twitter-v {
+    font-size: 22px;
+
+    &:hover {
+
+        color: #00aced;
+    }
+}
+
+.c-whatsapp-v {
+    font-size: 22px;
+
+    color: #25D366;
+}
+
+.c-ok-v {
+    font-size: 22px;
+
+    color: #d49c32;
+
+}
+
+.btn-facebook {
+    background-color: #4C69BA;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 2px 0px, rgba(0, 0, 0, 0.24) 0px 0px 1px 0px;
+    padding: 8px;
+    font-weight: bold;
+
+    .facebook-icon {
+        font-size: 21px;
+        margin-right: 20px;
+    }
+
+    &:hover {
+        color: #fff;
+    }
+}
+
+//****sections  social share bar
+
+.sections-social-share-btn {
+    li {
+
+
+        .in-icon {
+            color: var(--secondaryText);
+            font-size: 18px;
+            margin: 0px 10px;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            padding: 10px;
+            border-radius: 50%;
+
+            &:hover {
+                background: rgba(255, 255, 255, 0.10);
+            }
+        }
+
+        .fb-icon {
+            //  background: #325a97;
+        }
+
+        .tw-icon {
+            //  background: #00aced;
+        }
+
+    }
+}
+
+/**btn for sections vote **/
+
+.btn-sec-vote {
+    width: 60px;
+    // border: 1px solid var(--borderColor);
+    display: block;
+    float: left;
+    text-align: center;
+    color: var(--secondaryText) !important;
+    font-size: 20px;
+}
+
+.btn-vote-like {
+
+    &:hover {
+        // border: 1px solid rgba(orange,0.80);
+        color: orange !important;
+    }
+}
+
+.btn-vote-dislike {
+    padding-top: 5px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+    &:hover {
+        //border:1px solid rgba(red,0.80);
+        color: rgba(red, 0.80) !important;
+
+    }
+}
+
+/** btn share bns */
+
+.fb-share-btn {
+    background: #325a97;
+    border-color: transparent;
+}
+
+.p-share-btn {
+    background: #d3413d;
+    border-color: transparent; 
+}
+
+.more-share-btn {
+    width: 70px;
+    background: var(--border1);
+    border-color: transparent;
+}

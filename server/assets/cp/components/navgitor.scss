@@ -1,0 +1,29 @@
+#sidebar-container{
+background-color: $dark1;
+}
+
+.list-group-item{
+    background-color: $dark1;
+    color: $text;
+}
+
+.toggle-list{
+   width: 150px;
+}
+
+.nav-go{
+    .label-accordion{
+        color: #fff;
+    }
+    .dSllCE{
+        fill: #ffffff !important;
+    stroke: #fff;
+    }
+    .cp-link{
+        transition: all 0.5s ease;
+        &:hover{
+            color: #ccc;
+            text-decoration: none;
+        }
+    }
+}

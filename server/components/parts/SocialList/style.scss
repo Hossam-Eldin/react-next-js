@@ -1,0 +1,66 @@
+.social-icon{
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.18);
+  transition: all 0.5s ease;
+  border-radius: 50%;
+
+  &:hover{
+    box-shadow: 3px 5px 5px rgba(0,0,0, 0.35)
+  }
+}
+
+.social-list-title{
+  font-family: Montserrat,sans-serif;
+  font-weight: bold;
+  margin-bottom:15px; 
+}
+
+.social-icon-2{
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  display: block;
+  line-height: 2.5;
+  transition: all 0.5s ease;
+  color: #b7b7b7;
+  background-color: #fff;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.18);
+  border-radius: 50%;
+}
+.fb-icon{
+  border:2px solid #4060a5;
+  color: #4060a5;
+  &:hover{
+      border-radius: 0px;
+      background: #4060a5;
+      color: #fff;
+  }
+}
+.t-icon{
+  border:2px solid #2cabe3;
+  color: #2cabe3;
+  &:hover{
+      border-radius: 0px;
+      background: #2cabe3;
+      color: #fff;
+  }
+}
+.i-icon{
+  border:2px solid #2c94bc;
+  color: #2c94bc;
+  &:hover{
+      border-radius: 0px;
+      background: #2c94bc;
+      color: #fff;
+  }
+}
+.yt-icon{
+  border:2px solid #e64529;
+  color: #e64529;
+  &:hover{
+      border-radius: 0px;
+      background: #e64529;
+      color: #fff;
+  }
+}

@@ -1,0 +1,127 @@
+$orange-mid:#f9bf3b;
+$orange-nav:#bc6d21;
+$orange:#f9bf3b;
+$f5:#f5f5f5;
+$f2:#f2f2f2;
+$body-background:#fffbf8;
+$bg:#f9f0e7;
+$blog-bg:#f3f4f7;
+$light: #fff;
+$dark: rgba(0, 0, 0, 0.65);
+$brown:#62355c;
+$text: #252525;
+$text1:#686868;
+$text2:#878686;
+$text3:#bbbbbb;
+
+@import './website/navbar.scss';
+@import './website//btns.scss';
+@import './website//posts.scss';
+@import './website//cards.scss';
+@import './website/forms.scss';
+@import './website//socialBtn.scss';
+@import './website/slider.scss';
+@import './website/article.scss';
+@import './website/select.scss';
+@import './website/comment.scss';
+@import './website//footers.scss';
+@import './website/sections.scss';
+@import './website/users.scss';
+@import './theme.scss';
+
+
+body {
+  // background-color: #f6f7f9;
+  background: var(--bg);
+  color: var(--primaryText);
+  // background: darken($body-background, 10);
+}
+
+.b-bg {
+  background: var(--bg);
+}
+
+.text-c {
+  color: var(--primaryText)
+}
+
+
+.post-w {
+  background: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.10);
+  border-radius: 5px;
+}
+
+
+.section-post {
+  background-color: $light;
+  border: 1px solid $f5;
+}
+
+.my-masonry-grid {
+  display: -webkit-box;
+  /* Not needed if autoprefixing */
+  display: -ms-flexbox;
+  /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px;
+  /* gutter size offset */
+  width: auto;
+}
+
+.my-masonry-grid_column {
+  padding-left: 30px;
+  /* gutter size */
+  background-clip: padding-box;
+}
+
+// Style your items
+.my-masonry-grid_column>div {
+  /* change div to reference your elements you put in <Masonry> */
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+
+
+.image-gallery-right-nav,
+.image-gallery-left-nav {
+  display: none;
+}
+//borders
+
+.border-less{
+  border: 0px solid  transparent;
+}
+.border-t {
+  border-top: 1px solid var(--border1);
+}
+
+.border-d {
+  border-bottom: 1px solid var(--border1);
+}
+
+.border-r{
+  border-right: 1px solid var(--border1);
+}
+.border-l{
+  border-left: 1px solid  var(--border1);
+}
+
+//background  
+.bg-c{
+  background: var(--postBg);
+}
+
+//inputs 
+
+.input-o{
+  background: var(--postBg);
+  border-color: var(--border1);
+}
+
+//btn
+.btn-o{
+  background: var(--postBg);
+  border-color: var(--border1);
+}

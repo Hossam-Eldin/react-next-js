@@ -1,0 +1,20 @@
+.box-footer-list {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+
+
+    li {
+        display: inline;
+
+        a {
+            font-size: 14px;
+            font-weight: bold;
+            color: var(--softText);
+
+            &:hover{
+                color: var(--secondaryText);
+            }
+        }
+    }
+}

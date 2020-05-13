@@ -1,0 +1,35 @@
+.img-card{
+    height: 150px;
+    color: #fff;
+    position: relative;
+    padding-top: 10px;
+    border-radius: 5px;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease;
+    &:hover{
+        box-shadow:0 0px 10px 3px  rgba(56, 34, 34, 0.21);
+    }
+}
+.tag{
+    margin:10px 10px;
+    border: 1px solid rgba(204, 204, 204, 0.27);
+        color: #ccc;
+        border-radius: 5px;
+    padding:2px 5px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.img-details{
+    position: absolute;
+    background: linear-gradient(#0000,#000);
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    .title{
+        margin: 0;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,56 @@
+.user-content {
+    .ant-tabs-tab {
+        color: var(--secondaryText);
+    }
+    .ant-tabs-bar{
+        border-color: var(--borderColor);
+    }
+
+    .ant-tabs-ink-bar{
+        background: var(--softText);
+    }
+}
+
+.user-upload{
+    .ant-tabs-tab {
+        color: var(--secondaryText);
+    }
+    .ant-tabs-bar{
+        border-color: var(--borderColor);
+    }
+
+    .ant-tabs-ink-bar{
+        background: var(--softText);
+    }
+}
+
+.ant-modal-header{
+    background: var(--postBg);
+    border-color: var(--border1);
+}
+.ant-modal-title{
+    
+    color: var(--secondaryText);
+}
+
+.react-tagsinput-input{
+    background: var(--postBg);
+}
+.react-tagsinput{
+    background: var(--postBg);
+    border-color: var(--border1);
+}
+
+.ant-upload.ant-upload-select-picture-card{
+    width: 100%;
+    height: auto;
+}
+
+.ant-modal-body{
+       background: var(--postBg);
+}
+
+.user-sections-select{
+    height: 400px;
+    overflow: auto;
+}

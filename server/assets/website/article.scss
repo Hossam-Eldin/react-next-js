@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+.article-title{
+    color: var(--primaryText);
+    font-weight: bold;
+    margin: 0px;
+    line-height: 50px;
+    font-size: 45px;
+  }
+.post-content{
+    font-family: 'Cairo', sans-serif;
+    padding: 10px 0px;
+    margin: 20px auto;
+    color: var(--primaryText) !important;
+    h1,h2,h3,h4,h5,h6{ color: var(--primaryText); }
+    p {
+        font-size: 1.3em;
+        line-height: 2.5;
+        padding: 1em 0;
+        font-family: sans-serif;
+        letter-spacing: 1;
+    
+    }
+
+    img{
+        margin:50px auto;
+    }
+}
+

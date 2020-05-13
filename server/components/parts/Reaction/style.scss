@@ -1,0 +1,21 @@
+.reaction-btn{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    cursor: pointer;
+}
+
+.reactions-number{
+    background: white;
+    height: 20px;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    //position: absolute;
+   // right: -10px;
+   // bottom: -10px;
+    font-size: 13px;
+    padding: 2px;
+
+}

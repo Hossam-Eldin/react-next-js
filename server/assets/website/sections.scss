@@ -1,0 +1,15 @@
+.section-li-item{
+        color: var(--secondaryText);
+        transition: all 0.5s ease;
+        padding:8px  0px;
+        display: block;
+        &:hover{
+            color: var(--primaryText);
+            background: var(--postBg);
+        }
+        .section-icon{
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+}

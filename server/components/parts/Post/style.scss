@@ -1,0 +1,50 @@
+.post-header{
+   // padding:15px ;
+}
+
+.header-info{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 25px;
+  background: linear-gradient(#0000,#000)
+}
+
+.tag-list{
+  color: #999;
+}
+.list-header{
+  display:flex;
+
+}
+
+
+.vote-orange{
+  background: #f2f2f2;
+  border-radius: 50%;
+  height: 50px;
+  overflow: hidden;
+  width: 50px;
+}
+
+
+.flip-img{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.vote-btn{
+  background: transparent;
+  width: 100%;
+  padding: 0px;
+  border: 0px;
+  display: block;
+  margin: 0 auto;
+  transition: all 0.5s ease;
+  &:hover{
+    background:#f9bf3b;
+  }
+  img{
+    height: 18px;
+  }
+}
