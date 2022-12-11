@@ -19,7 +19,7 @@
     "draft-js": "^0.10.5",
     "draftjs-to-html": "^0.8.4",
     "dummyjs": "^1.1.7",
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "express-session": "^1.15.6",
     "html-to-draftjs": "^1.4.0",
     "jsonwebtoken": "^8.5.1",
